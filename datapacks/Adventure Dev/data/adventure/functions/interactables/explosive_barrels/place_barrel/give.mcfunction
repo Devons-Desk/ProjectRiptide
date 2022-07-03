@@ -1,0 +1,1 @@
+give @s item_frame{display:{Name:'{"text":"Place Explosive Barrel","italic":false}'},EntityTag:{Tags:["place.ebarrel"]}} 1

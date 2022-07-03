@@ -1,0 +1,1 @@
+give @s item_frame{display:{Name:'{"text":"Place Surprise Pot","italic":false}'},EntityTag:{Tags:["place.pot.surprise"]}} 1

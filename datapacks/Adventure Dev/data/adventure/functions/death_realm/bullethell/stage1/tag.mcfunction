@@ -1,0 +1,1 @@
+tag @e[tag=controller.bullethell] add stage1

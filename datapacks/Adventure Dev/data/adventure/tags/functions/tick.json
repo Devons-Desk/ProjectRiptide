@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "adventure:death_realm/detection",
+        "adventure:interactables/pots/regular/break_pot/detection",
+        "adventure:interactables/pots/surprise/break_pot/detection",
+        "adventure:detection_items/detection",
+        "adventure:interactables/explosive_barrels/break_barrel/detection",
+        "adventure:interactables/beenests/break_nest/detection"
+    ]
+} 
