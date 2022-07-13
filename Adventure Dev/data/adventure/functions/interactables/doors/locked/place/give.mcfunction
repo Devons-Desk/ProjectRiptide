@@ -1,0 +1,1 @@
+give @s item_frame{display:{Name:'{"text":"Place Locked Door Detector","italic":false}'},EntityTag:{Tags:["place.door.locked"]}} 1
