@@ -5,6 +5,7 @@
         "adventure:interactables/beenests/place_nest/detection",
         "adventure:interactables/pots/regular/place_pot/detection",
         "adventure:interactables/pots/surprise/place_pot/detection",
-        "adventure:interactables/doors/locked/place/detection"
+        "adventure:interactables/doors/locked/place/detection",
+        "adventure:interactables/padlocks/fragile/place/detection"
     ]
 } 

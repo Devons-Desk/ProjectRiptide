@@ -1,1 +1,0 @@
-give @p item_frame{display:{Name:'{"text":"Place Reinforced Padlock","italic": false}'},EntityTag:{Item:{id:"minecraft:flint",Count:1b,tag:{CustomModelData:5100006},Tags:["place.padlock.reinforced"]},Invulnerable:1b,Invisible:1b,Silent:1b,Fixed:1b}} 1

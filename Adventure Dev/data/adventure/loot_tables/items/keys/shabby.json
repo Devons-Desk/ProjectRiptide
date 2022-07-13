@@ -1,0 +1,38 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Shabby Key",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Conspicuous to the imaginative.",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:5100009,keys.shabby:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
