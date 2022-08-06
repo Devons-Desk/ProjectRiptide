@@ -1,6 +1,8 @@
 {
     "replace": false,
     "values": [
-        ""
+        "adventure:stealth/detection",
+        "adventure:stealth/state_machine/detection",
+        "adventure:stealth/particles/detection"
     ]
 } 

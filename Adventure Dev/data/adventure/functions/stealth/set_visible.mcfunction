@@ -1,0 +1,1 @@
+scoreboard players set @s stealth_controller 0
