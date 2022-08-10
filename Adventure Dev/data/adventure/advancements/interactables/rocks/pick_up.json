@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:stone_button"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "adventure:interactables/rocks/small/pick_up/detection"
+    }
+  }
+  

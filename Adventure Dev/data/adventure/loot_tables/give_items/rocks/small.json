@@ -1,0 +1,38 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:snowball",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Small Rock",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "A satisfying weight and balance.",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:5100010,rock.small:1b,EntityTag:{Tags:[\"rock.small.projectile\"]}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
