@@ -7,6 +7,7 @@
         "adventure:interactables/pots/surprise/place_pot/detection",
         "adventure:interactables/doors/locked/place/detection",
         "adventure:interactables/padlocks/fragile/place/detection",
-        "adventure:interactables/rocks/small/place/detection"
+        "adventure:interactables/rocks/small/place/detection",
+        "adventure:stealth/attention/scoreboard"
     ]
 } 
