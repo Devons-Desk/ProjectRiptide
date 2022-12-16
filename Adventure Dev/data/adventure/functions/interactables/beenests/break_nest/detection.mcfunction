@@ -1,4 +1,4 @@
-execute if entity @s[tag=inter.beenest.hitbox,nbt={HurtTime:10s}] at @s run function adventure:interactables/beenests/break_nest/break
+#execute if entity @s[tag=inter.beenest.hitbox,nbt={HurtTime:10s}] at @s run function adventure:interactables/beenests/break_nest/break
 
 
 execute as @s[tag=inter.beenest.falling,nbt={OnGround:1b}] at @s run function adventure:interactables/beenests/break_nest/summon_bees

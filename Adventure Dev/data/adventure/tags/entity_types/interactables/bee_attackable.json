@@ -4,6 +4,7 @@
         "minecraft:player",
 		"minecraft:pillager",
 		"minecraft:vindicator",
-        "minecraft:warden"		
+        "minecraft:warden",
+        "minecraft:husk"		
     ]
 }

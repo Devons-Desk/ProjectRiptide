@@ -1,0 +1,1 @@
+execute if entity @s[type=shulker,nbt={HurtTime:10s}] at @s run function adventure:interactables/break/branch

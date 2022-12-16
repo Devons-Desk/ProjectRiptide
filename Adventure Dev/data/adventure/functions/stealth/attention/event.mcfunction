@@ -1,0 +1,1 @@
+summon area_effect_cloud ~ ~ ~ {Duration:2,Tags:["attention.event"]}
