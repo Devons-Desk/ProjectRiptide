@@ -10,6 +10,6 @@ particle explosion ~ ~ ~ 0 0 0 0 5
 effect give @s[type=shulker] instant_damage 1 0 true
 kill @s[type=!shulker]
 
-
+#summon pig
 #### Max out range to end the raycast
 scoreboard players set #handgun.distance handgun.raycast 1000

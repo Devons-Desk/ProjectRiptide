@@ -5,12 +5,12 @@
         "conditions": {
           "entity": {
             "type": "minecraft:villager",
-            "nbt": "{Tags:[\"intro.init\"]}"
+            "nbt": "{Tags:[\"npc.talkative\"]}"
           }
         }
       }
     },
     "rewards": {
-      "function": "adventure:dialogue/main_quest/intro/initiate"
+      "function": "adventure:dialogue/detection"
     }
   }

@@ -1,0 +1,1 @@
+summon villager ~ ~ ~ {NoAI:1b,Tags:["npc.talkative","npc.bartender1","npc.bartender1.fresh"]}
