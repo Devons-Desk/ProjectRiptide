@@ -8,6 +8,7 @@
         "adventure:interactables/doors/locked/place/detection",
         "adventure:interactables/padlocks/fragile/place/detection",
         "adventure:interactables/rocks/small/place/detection",
+        "adventure:interactables/chests/locked/place/detection",
         "adventure:stealth/attention/scoreboard"
     ]
 } 
