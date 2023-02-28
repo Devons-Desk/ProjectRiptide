@@ -9,8 +9,9 @@ kill @s
 
 
 
-execute as @e[type=shulker,distance=..7] at @s run function adventure:interactables/explosive_barrels/break_barrel/initiate
-execute as @e[distance=..7,tag=inter.explbarrel.skin.exploding] at @s run scoreboard players add @s ebarrel.timer 3
+execute as @e[type=shulker,distance=..6] at @s run function adventure:interactables/explosive_barrels/break_barrel/initiate
+execute as @e[distance=..6,tag=inter.explbarrel.skin.exploding] at @s run function adventure:interactables/explosive_barrels/break_barrel/chaos
+#
 #effect give @e[type=shulker,distance=..7] instant_damage 1 0 true
 
 effect give @e[type=#adventure:interactables/explodable/unundead,distance=4..7] instant_damage 1 0 true
