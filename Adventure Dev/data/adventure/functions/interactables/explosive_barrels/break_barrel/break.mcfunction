@@ -6,7 +6,12 @@ tp @e[tag=inter.explbarrel.hitbox,limit=1,distance=..1] ~ -500 ~
 kill @s
 
 #
-effect give @e[type=shulker,distance=..7] instant_damage 1 0 true
+
+
+
+execute as @e[type=shulker,distance=..7] at @s run function adventure:interactables/explosive_barrels/break_barrel/initiate
+execute as @e[distance=..7,tag=inter.explbarrel.skin.exploding] at @s run scoreboard players add @s ebarrel.timer 3
+#effect give @e[type=shulker,distance=..7] instant_damage 1 0 true
 
 effect give @e[type=#adventure:interactables/explodable/unundead,distance=4..7] instant_damage 1 0 true
 effect give @e[type=#adventure:interactables/explodable/undead,distance=4..7] instant_health 1 0 true
