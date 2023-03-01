@@ -9,3 +9,4 @@ scoreboard players set @s[tag=talking] talking 0
 
 
 tag @s[tag=talking] remove talking
+function adventure:dialogue/trees/spacer
