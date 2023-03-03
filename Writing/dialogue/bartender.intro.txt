@@ -1,0 +1,35 @@
+Title text:
+Gawh, c'mon... Don't just stand there, come here!
+
+Dialogue:
+(1)You're the new contractor, right? Got a job here for ya. From Central.
+[Click to Continue]
+I'm Alia, the coordinator. Do you want the rundown or are you good to go?
+
+    Answers:
+        -Give me the details. (2)
+        -No, I already know the job.(3)
+        
+(2)Smart kid! There's a small water mill to the south that's owned by the guild. We've lost contact and it's stopped pushing product. We need you to find out why and get it back online.
+    Answers:
+        -Who managed the mill?(4)
+        -What will I find out there?(5)
+        -Okay, when should I leave?(6)
+
+(2.5)You done yet?
+    Answers:
+        -Who managed the mill?(4)
+        -What's out'there?(5)
+        -Okay, when should I leave?(6)
+
+(3)*sighs* This kid's gonna die early... Well, wrap up whatever you wanna' do 'round here then talk to me again. We'll get started.
+[Click to exit]
+
+(4)Ah, just some retired guild members. We siezed the mill from some debtors a couple years back. Figured the old bastards could run the shabby place just fine.(2.5)
+[Click to continue]
+
+(5)You might run into some wildlife or... or nomads? Hell if I know. Apart from the occasional supply runners, no one goes out that far. (2.5)
+[Click to continue]
+
+(6)You know the drill: as soon as possible. Wrap up whatever you wanna' do 'round here then talk to me again. We'll get  started.
+[Click to exit]
