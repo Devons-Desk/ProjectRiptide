@@ -5,11 +5,16 @@ Dialogue:
 (1)Are you @p? You're the new contractor, right? Got a job for ya. From Central.
 [Click to Continue]
 I'm Alia, the big honcho-poncho 'round here! Impressive, huh? I can tell ya' about the job or we can just get ya' started.
-
     Answers:
+        -Did you just call me "empty-eyes"?(7)
         -Give me the details. (2)
         -No, I already know the job.(3)
         
+(1a)So what's the deal, empty-eyes? Need the details?
+    Answers:
+        -Give me the details. (2)
+        -No, I already know the job.(3)
+
 (2)Smart kid! There's a small water mill to the south that's owned by the Guild. We've lost contact with the managers. We need you to find out why and get it back up and running.
     Answers:
         -Who managed the mill?(4)
@@ -33,3 +38,6 @@ I'm Alia, the big honcho-poncho 'round here! Impressive, huh? I can tell ya' abo
 
 (6)You're an eager one! I hope you last longer than the others. Well, finish up what you want to do around here, then talk to me again. We'll get started.
 [Click to exit]
+
+(7)Yep, you've got nothing behind them! They ooze inexperience. Don't worry though, kid. All in due time, right? As long as you don't die, of course.(1a)
+[Click to continue]
