@@ -13,10 +13,14 @@ Dialogue:
 (2) I'm a tough nut, but it's rude to keep people waiting, empty-eyes. 
 [Click to exit]
 
-(3) 
+(3) Hahaha, looks like you've got some sense afterall! Bring me something interesting, yeah?(6)
+[Click to continue]
 
-(4)
+(4)You're more careful than you look, huh empty-eyes? 
+[Click to continue]
 
-(5)
+(5)Bah, I've already forgotten your name.
+[Click to continue]
 
-(6)
+(6)Good luck.
+[Click to finish]
