@@ -1,0 +1,1 @@
+execute as @s[type=item_frame,tag=place.chair.unoccupied] at @s run function adventure:interactables/chairs/unoccupied/place/create
