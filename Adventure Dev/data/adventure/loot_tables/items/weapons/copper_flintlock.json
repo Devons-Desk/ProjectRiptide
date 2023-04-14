@@ -27,7 +27,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:5100011,copper_flintlock:1b}"
+                "tag": "{CustomModelData:5100011,flintlock.c.new:1b}"
               }
             ]
           }

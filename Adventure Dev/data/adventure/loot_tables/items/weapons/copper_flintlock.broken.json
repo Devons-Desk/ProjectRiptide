@@ -5,7 +5,7 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:copper_ingot",
+            "name": "minecraft:warped_fungus_on_a_stick",
             "functions": [
               {
                 "function": "minecraft:set_name",
@@ -27,7 +27,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:5100011,copper_flintlock:1b}"
+                "tag": "{CustomModelData:5100012,flintlock.c.broken:1b}"
               }
             ]
           }

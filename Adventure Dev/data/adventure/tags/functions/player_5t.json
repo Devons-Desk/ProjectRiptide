@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "adventure:items/handgun/detection"
+        "adventure:items/detect_rc"
     ]
 }
