@@ -1,7 +1,7 @@
-advancement revoke @s only adventure:items/handgun/right_click
-say fire
-tag @s add handgun.raycasting
-execute anchored eyes positioned ^ ^ ^ run function adventure:items/handgun/raycast
+#declare objective weapon.right_click
+#declare objective flintlock.buildup
 
-tag @s remove handgun.raycasting
-scoreboard players reset #handgun.distance handgun.raycast
+#say hi
+execute if score @s weapon.right_click matches 1.. at @s run function adventure:items/handgun/buildup
+
+execute if score @s flintlock.buildup matches 1.. run function adventure:items/handgun/resetting
