@@ -5,7 +5,7 @@
 
 #execute positioned ~ ~-1.95 ~ unless entity @s[dx=0] run say leg shot
 
-say I have been hit by a raycast. oof
+#say I have been hit by a raycast. oof
 particle explosion ~ ~ ~ 0 0 0 0 5
 damage @s[type=!shulker] 20 minecraft:explosion by @a[tag=handgun.raycasting,limit=1] from @a[tag=handgun.raycasting,limit=1]
 effect give @s[type=shulker] instant_damage 1 0 true
