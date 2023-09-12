@@ -1,20 +1,16 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:item_used_on_block",
-        "conditions": {
-          "location": {
-            "block": {
-              "blocks": [
-                "minecraft:stone_button"
-              ]
-            }
-          }
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[inter.rock.hitbox]}"
         }
       }
-    },
-    "rewards": {
-      "function": "adventure:interactables/rocks/small/pick_up/detection"
     }
+  },
+  "rewards": {
+    "function": "adventure:interactables/rocks/small/pick_up/detection"
   }
-  
+}
