@@ -5,4 +5,4 @@ execute if entity @s[tag=inter.pot.surprise.hitbox] run function adventure:inter
 
 
 ##uses initiate instead of break to use explosive buildup
-execute if entity @s[tag=inter.explbarrel.hitbox] run function adventure:interactables/explosive_barrels/break_barrel/initiate
+execute if entity @s[tag=inter.explbarrel.hitbox] run function adventure:interactables/explosive_barrels/break_barrel/break

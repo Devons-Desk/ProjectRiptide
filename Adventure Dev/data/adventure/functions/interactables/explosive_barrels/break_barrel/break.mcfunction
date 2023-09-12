@@ -1,23 +1,6 @@
-#
-summon creeper ~ ~0.4 ~ {ExplosionRadius:0b,Fuse:0,ignited:1b}
-particle block barrel ~ ~0.8 ~ 0.35 1.1 0.35 1 30
-particle minecraft:explosion ~ ~0.4 ~ 0.5 0.3 0.5 1 4
-tp @e[tag=inter.explbarrel.hitbox,limit=1,distance=..1] ~ -500 ~
-kill @s
+#execute if entity @s[tag=inter.explbarrel.hitbox,nbt={HurtTime:10s}] at @s run function adventure:interactables/explosive_barrels/break_barrel/break
 
-#
-
-
-
-execute as @e[type=shulker,distance=..6] at @s run function adventure:interactables/explosive_barrels/break_barrel/initiate
-execute as @e[distance=..6,tag=inter.explbarrel.skin.exploding] at @s run function adventure:interactables/explosive_barrels/break_barrel/chaos
-#
-#effect give @e[type=shulker,distance=..7] instant_damage 1 0 true
-
-effect give @e[type=#adventure:interactables/explodable/unundead,distance=4..7] instant_damage 1 0 true
-effect give @e[type=#adventure:interactables/explodable/undead,distance=4..7] instant_health 1 0 true
-
-effect give @a[distance=..3.9] instant_damage 1 1 true
-kill @e[type=#adventure:interactables/explodable/all,distance=..3.9]
-
-
+#execute if entity @s[type=item,tag=break.pot] at @s run function adventure:interactables/pots/break_pot/break
+execute at @s run particle minecraft:small_flame ~ ~1 ~ 0.05 0.3 0.05 0.01 3
+execute at @s run playsound entity.tnt.primed master @a[distance=..20]
+execute as @e[tag=inter.explbarrel.skin,distance=..0.8,tag=!inter.explbarrel.skin.exploding] at @s run tag @s add inter.explbarrel.skin.exploding

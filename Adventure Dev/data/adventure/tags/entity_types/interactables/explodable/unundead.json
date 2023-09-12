@@ -3,6 +3,7 @@
     "values": [
         "minecraft:player",
         "minecraft:pillager",
-        "minecraft:warden"
+        "minecraft:warden",
+        "minecraft:vindicator"
     ]
 }

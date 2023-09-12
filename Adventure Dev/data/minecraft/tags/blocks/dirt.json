@@ -1,6 +1,15 @@
 {
     "replace": false,
     "values": [
-        "minecraft:jungle_slab"
+        "minecraft:jungle_slab",
+        "minecraft:terracotta",
+        "minecraft:gravel",
+        "minecraft:brown_terracotta",
+        "minecraft:brown_concrete_powder",
+        "minecraft:brown_mushroom_block",
+        "minecraft:packed_mud",
+        "minecraft:green_concrete_powder",
+        "minecraft:mangrove_planks",
+        "minecraft:powder_snow"
     ]
 }

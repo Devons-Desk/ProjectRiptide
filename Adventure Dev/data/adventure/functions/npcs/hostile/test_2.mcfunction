@@ -1,0 +1,1 @@
+summon vindicator ~ ~ ~ {Tags:["npc.hostile","npc.unaware"],Attributes:[{Name:generic.follow_range,Base:5}]}

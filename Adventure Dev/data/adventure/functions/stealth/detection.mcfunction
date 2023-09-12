@@ -4,5 +4,5 @@ execute if entity @s[type=player,scores={stealth_controller=1..}] unless predica
 
 execute if entity @s[type=player] unless predicate adventure:stealth/crouch_only run scoreboard players set @s stealth_controller 0
 
-execute if predicate adventure:stealth/aggroed run scoreboard players set @p stealth_controller 0
+execute if entity @s[type=player] if predicate adventure:stealth/aggroed run scoreboard players set @s stealth_controller 0
 

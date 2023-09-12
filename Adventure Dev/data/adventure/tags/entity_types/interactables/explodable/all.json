@@ -4,6 +4,7 @@
         "minecraft:husk",
         "minecraft:zombie",
         "minecraft:pillager",
-        "minecraft:warden"
+        "minecraft:warden",
+        "minecraft:vindicator"
     ]
 }
