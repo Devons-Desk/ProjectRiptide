@@ -1,3 +1,7 @@
-advancement revoke @s only adventure:items/keys/shabby
-execute as @e[type=marker,tag=door.locked,distance=..6] at @s unless blocks ~ ~ ~ ~ ~1 ~ ~ -64 ~ all run function adventure:interactables/padlocks/fragile/break/success
-say attempt lockpick
+advancement revoke @s only adventure:interactables/fragile_padlock
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:iron_nugget",Count:1b,tag:{keys.shabby:1b}}}] as @e[type=interaction,distance=..6] if data entity @s interaction at @s run function adventure:interactables/padlocks/fragile/break/success
+
+execute unless entity @s[nbt={SelectedItem:{id:"minecraft:iron_nugget",Count:1b,tag:{keys.shabby:1b}}}] as @e[type=interaction,distance=..6] if data entity @s interaction at @s run function adventure:interactables/padlocks/fragile/break/fail
+
+
+#say attempt lockpick
