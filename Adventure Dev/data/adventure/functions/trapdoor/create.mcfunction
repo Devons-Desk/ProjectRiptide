@@ -1,2 +1,2 @@
-summon interaction -159 56.8 241.5 {width:3.1f,height:0.6f,Tags:["inter.padlock.fragile.hitbox","inter.trapdoor.closed"]}
+summon interaction -159 56.8 241.5 {width:3.1f,height:0.6f,Tags:["inter.padlock.fragile.hitbox","inter.trapdoor.closed","inter.trapdoor"]}
 summon item_display -158.5 57.2 241.96 {billboard:"fixed",Rotation:[90F,-90F],Tags:["inter.padlock.fragile"],item:{id:"minecraft:flint",Count:1b,tag:{CustomModelData:5100006}}}

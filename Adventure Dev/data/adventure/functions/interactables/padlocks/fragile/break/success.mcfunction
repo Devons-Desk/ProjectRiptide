@@ -4,5 +4,5 @@ execute at @e[tag=inter.padlock.fragile,limit=1,sort=nearest] run summon snowbal
 #execute at @e[tag=inter.padlock.fragile,limit=1,sort=nearest] run fill ^ ^ ^-2 ^ ^1 ^-2 air
 kill @e[tag=inter.padlock.fragile,sort=nearest,limit=1]
 tag @s remove inter.padlock.fragile.hitbox
-tag @s add inter.trapdoor
+#tag @s add inter.trapdoor
 kill @s[tag=!inter.trapdoor]
