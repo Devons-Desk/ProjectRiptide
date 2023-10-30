@@ -4,4 +4,4 @@
 say hit success
 execute at @s run particle minecraft:small_flame ~ ~1 ~ 0.05 0.3 0.05 0.01 3
 execute at @s run playsound entity.tnt.primed master @a[distance=..20]
-execute as @e[tag=inter.explbarrel.skin,distance=..0.8,tag=!inter.explbarrel.skin.exploding] at @s run tag @s add inter.explbarrel.skin.exploding
+execute as @e[tag=inter.explbarrel.skin,distance=..1,tag=!inter.explbarrel.skin.exploding,limit=1,sort=nearest] at @s run tag @s add inter.explbarrel.skin.exploding
