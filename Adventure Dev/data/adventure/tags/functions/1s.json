@@ -9,6 +9,6 @@
         "adventure:interactables/rocks/small/place/detection",
         "adventure:interactables/chests/locked/place/detection",
         "adventure:interactables/chairs/unoccupied/place/detection",
-        "adventure:stealth/attention/scoreboard"
+        "adventure:enemy_ai/attention/scoreboard"
     ]
 } 
