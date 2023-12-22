@@ -1,0 +1,27 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:item_frame",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Place Melee #1",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{EntityTag:{Invisible:1b,Tags:[\"place.enemy.melee_1\"]}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
