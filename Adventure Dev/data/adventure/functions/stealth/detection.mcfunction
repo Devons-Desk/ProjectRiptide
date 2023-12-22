@@ -6,3 +6,4 @@ execute if entity @s[type=player] unless predicate adventure:stealth/crouch_only
 
 execute if entity @s[type=player] if predicate adventure:stealth/aggroed run scoreboard players set @s stealth_controller 0
 
+#say detecting

@@ -1,1 +1,1 @@
-summon vindicator ~ ~ ~ {Tags:["npc.bandit.melee_1","enemy.patrolling","npc.bandit","enemy"],Attributes:[{Name:generic.follow_range,Base:8}],PersistenceRequired:1b}
+summon vindicator ~ ~ ~ {Team:"stealth",PersistenceRequired:1b,Tags:["npc.bandit.melee_1","enemy.patrolling","npc.bandit","enemy"],Attributes:[{Name:generic.follow_range,Base:8}]}
