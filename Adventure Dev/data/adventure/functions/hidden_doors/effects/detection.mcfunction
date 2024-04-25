@@ -1,0 +1,1 @@
+execute if entity @s[tag=hdoor.teleporting] at @s run

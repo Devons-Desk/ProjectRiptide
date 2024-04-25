@@ -1,1 +1,0 @@
-summon husk ~ ~ ~ {Tags:["npc.hostile"],Attributes:[{Name:generic.follow_range,Base:5}]}

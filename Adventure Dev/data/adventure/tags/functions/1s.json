@@ -10,7 +10,7 @@
         "adventure:interactables/rocks/small/place/detection",
         "adventure:interactables/chests/locked/place/detection",
         "adventure:interactables/chairs/unoccupied/place/detection",
-        "adventure:npcs/hostile/bandits/melee_1/place",
+        "adventure:npcs/bandits/melee_1/place",
         "adventure:enemy_ai/attention/scoreboard"
     ]
 } 
