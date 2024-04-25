@@ -6,6 +6,3 @@ execute if entity @s[scores={stealth_controller=7..10},tag=!stealth.full_hidden]
 
 
 
-#declare tag stealth.full_hidden
-#declare tag stealth.hidden
-#declare tag stealth.visible

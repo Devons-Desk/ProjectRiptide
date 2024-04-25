@@ -1,6 +1,3 @@
-#declare objective weapon.right_click
-#declare objective flintlock.buildup
-
 #say hi
 function adventure:items/handgun/buildup
 
