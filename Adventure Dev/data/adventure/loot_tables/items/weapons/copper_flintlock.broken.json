@@ -1,38 +1,51 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:warped_fungus_on_a_stick",
-            "functions": [
-              {
-                "function": "minecraft:set_name",
-                "name": {
-                  "text": "Shoddy Copper Flintlock",
-                  "color": "gray",
-                  "italic": false
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "Shoddy Copper Flintlock"
                 }
-              },
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "A lightweight weapon with weight.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": 
               {
-                "function": "minecraft:set_lore",
-                "lore": [
-                  {
-                    "text": "A lightweight weapon with weight.",
-                    "color": "gray",
-                    "italic": true
-                  }
-                ]
-              },
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:5100012,flintlock.c.broken:1b}"
+                  "minecraft:custom_model_data": 5100012,
+                  "minecraft:rarity": "common"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            },
+            {
+                "function": "set_custom_data",
+                "tag": "{copper_flintlock.broken:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

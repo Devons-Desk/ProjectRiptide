@@ -8,26 +8,40 @@
           "name": "minecraft:warped_fungus_on_a_stick",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Copper Flintlock",
-                "color": "white",
-                "italic": false
-              }
+              "function": "set_name",
+              "target": "item_name",
+              "name": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "Copper Flintlock"
+                }
+              ]
             },
             {
-              "function": "minecraft:set_lore",
-              "lore": [
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": 
+              [
                 {
-                  "text": "A lightweight weapon with weight.",
+                  "translate": "test",
+                  "fallback": "A lightweight weapon with weight.",
                   "color": "gray",
                   "italic": true
                 }
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5100011,flintlock.c.new:1b}"
+              "function": "minecraft:set_components",
+              "components": 
+              {
+                  "minecraft:custom_model_data": 5100011,
+                  "minecraft:rarity": "common"
+              }
+            },
+            {
+                "function": "set_custom_data",
+                "tag": "{copper_flintlock.new:1b}"
             }
           ]
         }

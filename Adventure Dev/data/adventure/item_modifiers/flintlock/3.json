@@ -1,7 +1,8 @@
 [
-    {
-      "function": "minecraft:set_nbt",
-      "tag": "{CustomModelData:5100015}"
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:custom_model_data": 5100015
     }
-  ]
-  
+  }
+]

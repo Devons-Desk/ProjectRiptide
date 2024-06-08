@@ -1,38 +1,55 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:snowball",
-            "functions": [
-              {
-                "function": "minecraft:set_name",
-                "name": {
-                  "text": "Small Rock",
-                  "color": "white",
-                  "italic": false
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "Small Rock"
                 }
-              },
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "A satisfying weight and balance.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": 
               {
-                "function": "minecraft:set_lore",
-                "lore": [
-                  {
-                    "text": "A satisfying weight and balance.",
-                    "color": "gray",
-                    "italic": true
+                  "minecraft:custom_model_data": 5100010,
+                  "minecraft:rarity": "common"
+              },
+              "minecraft:entity_data": {
+                    "id": "minecraft:snowball",
+                    "Tags":["rock.small.projectile"]
                   }
-                ]
-              },
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:5100010,rock.small:1b,EntityTag:{Tags:[\"rock.small.projectile\"]}}"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            },
+            {
+                "function": "set_custom_data",
+                "tag": "{rock.small:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

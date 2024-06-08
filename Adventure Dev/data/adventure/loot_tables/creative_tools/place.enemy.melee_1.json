@@ -1,27 +1,28 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:item_frame",
-            "functions": [
-              {
-                "function": "minecraft:set_name",
-                "name": {
-                  "text": "Place Melee #1",
-                  "italic": false
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": "Place Melee #1"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags":["place.enemy.melee_1"]
                 }
-              },
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{EntityTag:{Invisible:1b,Tags:[\"place.enemy.melee_1\"]}}"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            }           
+          ]
+        }
+      ]
+    }
+  ]
+}

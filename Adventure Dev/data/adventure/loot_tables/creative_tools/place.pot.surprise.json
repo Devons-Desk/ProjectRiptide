@@ -1,27 +1,28 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:item_frame",
-            "functions": [
-              {
-                "function": "minecraft:set_name",
-                "name": {
-                  "text": "Place Surprise Pot",
-                  "italic": false
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": "Place Surprise Pot"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags":["place.pot.surprise"]
                 }
-              },
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{EntityTag:{Invisible:1b,Tags:[\"place.pot.surprise\"]}}"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            }           
+          ]
+        }
+      ]
+    }
+  ]
+}

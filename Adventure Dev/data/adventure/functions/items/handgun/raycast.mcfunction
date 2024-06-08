@@ -1,4 +1,4 @@
-#say start cast
+say start cast
 execute as @e[tag=!handgun.raycasting,type=!#adventure:raycast/bypass,dx=0] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] positioned ~0.99 ~0.99 ~0.99 run function adventure:items/handgun/impact
 
 scoreboard players add #handgun.distance handgun.raycast 1
