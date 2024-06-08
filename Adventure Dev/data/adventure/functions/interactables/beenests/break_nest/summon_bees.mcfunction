@@ -1,6 +1,6 @@
 particle angry_villager ~ ~ ~ 0.6 0.6 0.6 1 3
 particle campfire_cosy_smoke ~ ~ ~ 0.4 0.6 0.4 0.1 3
-particle block bee_nest ~ ~0.8 ~ 0.55 0.9 0.55 1 30
+particle block{block_state:"minecraft:bee_nest"} 0.9 0.55 1 30 0 0 1 30 normal
 playsound minecraft:entity.zombie.break_wooden_door master @a[distance=..12] ~ ~ ~ 1 1.5
 summon bee ~ ~ ~ {AngerTime:40000,Tags:["trap_bees"],Attributes:[{Name:generic.attack_damage,Base:5}]}
 summon bee ~ ~ ~ {AngerTime:40000,Tags:["trap_bees"],Attributes:[{Name:generic.attack_damage,Base:5}]}

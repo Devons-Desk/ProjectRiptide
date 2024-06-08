@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:enter_block",
+        "conditions": {
+          "block": "minecraft:light",
+          "state": {
+            "level": "0"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "adventure:areas/detection"
+    }
+  }
+  
