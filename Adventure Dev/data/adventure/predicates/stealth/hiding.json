@@ -1,15 +1,14 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "location": {
-        "block": {
-          "tag": "adventure:stealth/hides_player"
-        }
-      },
-      "flags": {
-        "is_sneaking": true
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "location": {
+      "block": {
+        "blocks": "#adventure:stealth/hides_player"
       }
+    },
+    "flags": {
+      "is_sneaking": true
     }
   }
-  
+}
