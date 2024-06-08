@@ -1,7 +1,7 @@
 ###called by advancement right-click detection. Found in "dialogue/initiate.json". triggers off interacting with talkative npc's.
 
 advancement revoke @s only adventure:dialogue/initiate
-
+say attempt conversation
 scoreboard players set @s talking 1
 
 
