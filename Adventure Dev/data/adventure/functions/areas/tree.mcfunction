@@ -1,0 +1,1 @@
+execute if entity @s[tag=checkpoint.bandit_cave_1] run say bandit cave 1 discovered

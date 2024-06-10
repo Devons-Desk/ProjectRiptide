@@ -19,4 +19,7 @@
 #declare objective coinflip
 
 ##DECLARING TAGS
+    #ENEMY
 #declare tag enemy.dodger
+    #AREAS
+#declare tag checkpoint.bandit_cave_1
