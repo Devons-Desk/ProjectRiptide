@@ -11,6 +11,8 @@
         "adventure:interactables/chests/locked/place/detection",
         "adventure:interactables/chairs/unoccupied/place/detection",
         "adventure:npcs/bandits/melee_1/place",
-        "adventure:enemy_ai/attention/scoreboard"
+        "adventure:dying/checkpoints/place/detection",
+        "adventure:enemy_ai/attention/scoreboard",
+        "adventure:dying/checkpoints/visibility"
     ]
 } 

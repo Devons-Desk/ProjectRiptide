@@ -5,7 +5,11 @@ execute store result score @s enemy.dodging.motion_z1 run data get entity @s Pos
 #execute at @s rotated as @s run function {insert function name}
 
 #these vector coordinates are important in deciding the end magnitude of the final vector
-tp @s ^ ^0.003 ^-0.012
+execute store result score @s rng.dodge run random value 1..3
+execute if score @s rng.dodge matches 1 run tp @s ^ ^0.003 ^-0.011
+execute if score @s rng.dodge matches 2 run tp @s ^0.011 ^0.0035 ^
+execute if score @s rng.dodge matches 3 run tp @s ^-0.011 ^0.0035 ^
+scoreboard players reset @s rng.dodge
 
 execute store result score @s enemy.dodging.motion_x2 run data get entity @s Pos[0] 1000
 execute store result score @s enemy.dodging.motion_y2 run data get entity @s Pos[1] 1000

@@ -1,0 +1,1 @@
+execute if entity @s[tag=place.checkpoint] at @s run function adventure:dying/checkpoints/place/create

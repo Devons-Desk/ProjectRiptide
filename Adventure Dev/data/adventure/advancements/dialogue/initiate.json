@@ -1,16 +1,16 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:player_interacted_with_entity",
-        "conditions": {
-          "entity": {
-            "type": "minecraft:villager",
-            "nbt": "{Tags:[\"npc.talkative\"]}"
-          }
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "#adventure:talkative",
+          "nbt": "{Tags:[\"npc.talkative\"]}"
         }
       }
-    },
-    "rewards": {
-      "function": "adventure:dialogue/detection"
     }
+  },
+  "rewards": {
+    "function": "adventure:dialogue/detection"
   }
+}
