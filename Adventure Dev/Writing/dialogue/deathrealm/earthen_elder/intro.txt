@@ -1,0 +1,29 @@
+name ideas=
+    mana/Manāt (maniya=fate) - arabic goddess of fate, fortune, time, and destiny. one of 3 pantheon. alongside allat, and al-uzza
+    prosper - derived from persephone, queen of underworld. but also connected to the earth.
+    tellus - derived from gaia/gaea. 
+
+Background:
+Mana, elden being, trapped by their elden siblings. Has been sending feelers from their prison dimension to try to hook souls to assist them. Has hooked player but is secretly speaking to other souls. A bit conniving, yearning for freedom more than anything.
+
+Personality:
+Bombastic and inventive. Clever. Sneaky. Outgoing. A bit fruity and pseudo-caring.
+
+Title text:
+Oh! Something curious has come my way...
+
+Dialogue:
+(1) Hello curious one. 
+[Click to continue.]
+It seems you've stumbled into my...? room. 
+    Answers:
+        -Who are you? (2)
+        -*Stay silent* (3)
+
+(2) Me? Just a wanderer. Though lately I've been stuck in here. Family am I right?
+[Click to continue.]
+But enough about me! YOU! You. You. You.(4)
+
+(3) Curious and cautious! I admire that. But you- you have bigger fish to fry. (4)
+
+(4) *The voice laughs* You died! Poor thing. Lucky for you, my magic plucked you out of the aether.
