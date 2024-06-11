@@ -7,9 +7,11 @@ tag @s add npc.found
 ##npc list. also contains same npc's with separate dialogues depending on state
 ##can do mild rewrite to detect npc subtags before detecting which statebased tag that npc has. EX: execute if entity @s[tag=bartender1] run function found_bartender, etc etc. Slight optimization for when there's too many npc's.
 
-execute if entity @s[tag=npc.bartender1.fresh] as @p[tag=dia.raycasting] at @s run function adventure:dialogue/trees/intro/initiate
-execute if entity @s[tag=npc.bartender1.ready_to_leave] as @p[tag=dia.raycasting] at @s run function adventure:dialogue/trees/leaving_bar/initiate
+
+##FINDING NPCS:
+#Detect for the npc's base tag (ie: npc.mana) then in the "npcs" folder, find the specific variant of that npc. Helps reduce amount of commands run as number of talkative npcs increase.
+
+execute if entity @s[tag=npc.bartender1] run function adventure:dialogue/npcs/bartender1
+execute if entity @s[tag=npc.mana] run function adventure:dialogue/npcs/mana
 
 tag @s remove npc.found
-
-#execute if entity @s[tag=npc.x.fresh]

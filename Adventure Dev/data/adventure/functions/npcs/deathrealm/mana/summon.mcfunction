@@ -1,0 +1,1 @@
+summon villager ~ ~ ~ {NoAI:1b,Tags:["npc.talkative","npc.mana","npc.mana.fresh"]}

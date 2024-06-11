@@ -1,5 +1,7 @@
 say in purgatory (dev text)
-
+effect give @s blindness 3 0 true
+tp @s -240.5 7 238.5 facing -262 8 238
+playsound minecraft:block.respawn_anchor.deplete master @s
 
 
 

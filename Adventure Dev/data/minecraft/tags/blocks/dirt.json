@@ -10,6 +10,9 @@
         "minecraft:packed_mud",
         "minecraft:green_concrete_powder",
         "minecraft:mangrove_planks",
-        "minecraft:powder_snow"
+        "minecraft:powder_snow",
+        "minecraft:stone",
+        "minecraft:mossy_cobblestone",
+        "minecraft:melon"
     ]
 }
