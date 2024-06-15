@@ -1,1 +1,1 @@
-execute as @s[type=item_frame,tag=place.pot.regular] at @s rotated as @p run function adventure:interactables/pots/regular/place_pot/create
+execute if entity @s[type=item_frame,tag=place.pot.regular] at @s run function adventure:interactables/pots/regular/place_pot/create

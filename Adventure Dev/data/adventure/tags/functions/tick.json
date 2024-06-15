@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values": [
-        "adventure:dying/detection",
         "adventure:interactables/rocks/small/throw/detection",
         "adventure:enemy_ai/attention/interrupt",
         "adventure:interactables/break/detection",
