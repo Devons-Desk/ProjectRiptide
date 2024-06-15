@@ -1,0 +1,52 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_block",
+            "functions": [
+              {
+                "function": "set_name",
+                "target": "item_name",
+                "name": 
+                [
+                  {
+                    "translate": "test",
+                    "fallback": "Alchemical Mix"
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "mode": "replace_all",
+                "lore": 
+                [
+                  {
+                    "translate": "test",
+                    "fallback": "A strange, dark powder sits in a burlap pouch.",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": 
+                {
+                    "minecraft:custom_model_data": 5100010,
+                    "minecraft:rarity": "common"
+                }
+              },
+              {
+                  "function": "set_custom_data",
+                  "tag": "{alchemical_mix:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

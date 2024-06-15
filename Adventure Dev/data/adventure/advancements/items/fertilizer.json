@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "item": {
+            "items": "minecraft:structure_block",
+            "predicates": {
+              "minecraft:custom_data": "{alchemical_mix:1b}"
+            }
+          },
+          "entity": {
+            "type": "minecraft:interaction",
+            "nbt": "{Tags:[pitcher_vine.ready]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "adventure:environment/pitcher_vine/detection"
+    }
+  }  

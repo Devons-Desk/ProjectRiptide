@@ -4,10 +4,10 @@ name ideas=
     tellus - derived from gaia/gaea. 
 
 Background:
-Mana, elden being, trapped by their elden siblings. Has been sending feelers from their prison dimension to try to hook souls to assist them. Has hooked player but is secretly speaking to other souls. A bit conniving, yearning for freedom more than anything.
+Mana, elden being, trapped by their elden siblings. Has been sending feelers from their prison dimension to try to hook souls to assist them. Has hooked player but is secretly speaking to other souls? A bit conniving, yearning for freedom more than anything.
 
 Personality:
-Bombastic and inventive. Clever. Sneaky. Outgoing. A bit fruity and pseudo-caring.
+Bombastic and inventive. Clever. Sneaky. Outgoing. Loose-lipped. A bit fruity and pseudo-caring. Self-centered.
 
 Title text:
 Oh! Something curious has come my way...
@@ -26,4 +26,21 @@ But enough about me! YOU! You. You. You.(4)
 
 (3) Curious and cautious! I admire that. But you- you have bigger fish to fry. (4)
 
-(4) *The voice laughs* You died! Poor thing. Lucky for you, my magic plucked you out of the aether.
+(4) *The voice laughs* You died! Poor thing. Lucky for you, my line plucked you right out of the aether.
+    Answers:
+        -Your line? (5)
+        -What do you want from me? (6)
+
+(5) Oh just a party trick. I've been down here so long, I started casting feelers into the dark. My siblings are better at it, but I can catch a soul or two when I put my mind to it!
+[Click to continue]
+But oh! I can't stop running my mouth. Where were we? (6)
+
+(6) Let's make a deal! I help return you from death, and all YOU have to do is keep me company. Play a game when you stop by, chat a bit. Then you'll be on your way. How about it?
+    Answers:
+        -That's not too bad. Sure. (7)
+        -I'd literally rather be dead. (8)
+
+(7) Wonderful! You're taking this all very well. I'll return you right away; consider it a freebie. Good luck @p! Don't die! (9)
+[Click to exit.]
+
+(8) 
