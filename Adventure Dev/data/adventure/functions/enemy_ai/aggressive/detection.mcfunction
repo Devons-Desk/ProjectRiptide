@@ -3,4 +3,4 @@ execute if entity @s[tag=!enemy.aggressive,tag=enemy] if predicate adventure:ste
 
 
 ##Controls aggressive AI. Add new functions below to add new behavior to enemies
-execute if entity @s[tag=enemy.aggressive,tag=enemy.dodger] at @s if entity @p[distance=..8] run function adventure:enemy_ai/dodging/scoreboard
+execute if entity @s[tag=enemy.aggressive,tag=enemy.dodger] at @s if entity @p[distance=..8,gamemode=adventure] run function adventure:enemy_ai/dodging/scoreboard

@@ -1,2 +1,2 @@
 function adventure:interactables/explosive_barrels/place_barrel/direction
-kill @s
+kill @s[type=!player]
