@@ -10,7 +10,7 @@ tag @e[tag=npc.talking] remove npc.talking
 
 playsound block.beacon.deactivate player @s
 attribute @s minecraft:generic.jump_strength base set 0.42
-effect clear @s
+effect clear @s slowness
 
 ##scoreboard no longer in use. keeping just in case?
 scoreboard players set @s talking 0

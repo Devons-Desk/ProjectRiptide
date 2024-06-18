@@ -1,1 +1,1 @@
-execute if entity @s[tag=checkpoint.bandit_cave_1] run say bandit cave 1 discovered
+execute if entity @s[tag=checkpoint.bandit_cave_1] run function adventure:areas/bandit_cave_1/initiate
