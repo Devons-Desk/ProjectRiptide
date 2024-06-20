@@ -1,3 +1,5 @@
+##Function for adding aggressive behavior
+
 execute if entity @s[tag=!enemy.aggressive,tag=enemy] if predicate adventure:stealth/aggroed run function adventure:enemy_ai/state_machine/aggressive
 
 

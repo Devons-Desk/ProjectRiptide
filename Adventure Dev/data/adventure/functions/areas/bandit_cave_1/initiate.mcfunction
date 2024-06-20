@@ -8,4 +8,4 @@ execute positioned -245.34 49.00 342.47 run function adventure:npcs/bandits/mele
 execute positioned -223.27 50.00 333.70 run function adventure:npcs/bandits/melee_freed/summon
 
 #interactables
-execute positioned -246.47 48.00 349.44 run function adventure:interactables/explosive_barrels/place_barrel/create
+execute positioned -246.47 48.00 349.44 unless entity @e[type=shulker,distance=..1] run function adventure:interactables/explosive_barrels/place_barrel/create

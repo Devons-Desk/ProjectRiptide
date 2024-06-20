@@ -1,4 +1,6 @@
 ##DECLARING OBJECTIVES
+#declare objective enemy.patrolling.raycast
+#declare objective enemy.patrolling.timer
 #declare objective enemy.dodging_timer
 #declare objective enemy.aggro_timer
 #declare objective enemy.dodging.randomizer
