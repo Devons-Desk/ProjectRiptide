@@ -1,0 +1,11 @@
+(1) So what'll it be, curious one? Death or the deal.
+    Answers:
+        -Leave me be. (2)
+        -Please save me. Please. Please. Please. Plea- (3)
+        -I'm still undecided... (4)
+
+(2) *Sigh* Maybe next time. [Click to persist] ##Plays purgatory scene.
+
+(3) Hahaha! Of course! Of course. I'll see you again soon, @p. [Click to persist] ##First revive
+
+(4) Don't take too long. Sun's going down. [Click to exit] ##Tag to prep intro.return

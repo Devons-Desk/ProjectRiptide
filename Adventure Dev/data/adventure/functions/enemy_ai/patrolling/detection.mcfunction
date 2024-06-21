@@ -2,4 +2,4 @@
 
 
 #Controls timing of patrolling raycasts
-execute if entity @s[tag=enemy.patrolling] at @s if entity @p[distance=..8] run function adventure:enemy_ai/patrolling/scoreboard
+execute if entity @s[tag=enemy.patrolling] at @s if entity @p[distance=..8,tag=!stealth.full_hidden,gamemode=adventure] run function adventure:enemy_ai/patrolling/scoreboard

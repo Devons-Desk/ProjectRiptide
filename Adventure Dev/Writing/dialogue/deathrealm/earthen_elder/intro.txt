@@ -24,7 +24,7 @@ It seems you've stumbled into my...? room.
 [Click to continue.]
 But enough about me! YOU! You. You. You.(4)
 
-(3) Curious and cautious! I admire that. But you- you have bigger fish to fry. (4)
+(3) Curious and cautious! I admire that. But you- you have bigger fish to fry. [Click to continue](4)
 
 (4) *The voice laughs* You died! Poor thing. Lucky for you, my line plucked you right out of the aether.
     Answers:
@@ -43,6 +43,14 @@ But oh! I can't stop running my mouth. Where were we? (6)
 (7) Wonderful! You're taking this all very well. I'll return you right away; consider it a freebie. Good luck @p! Don't die! (9)
 [Click to exit.]
 
-(8) Are you certain?
+(8) ...Are you certain?
     Answers:
-        -
+        -Yes. Leave me be. (10)
+        -Just kidding. Please save me. Please. Please. Please. Plea- (11)
+        -Can I have some time to think about it? (12)
+
+(10) *Sigh* Maybe next time. [Click to persist] ##Plays purgatory scene.
+
+(11) Hahaha! Of course! Of course. I'll see you again soon, @p. [Click to persist] ##First revive
+
+(12) Don't take too long. Sun's going down. [Click to exit] ##Tag to prep intro.return
