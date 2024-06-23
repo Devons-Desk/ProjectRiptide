@@ -1,0 +1,1 @@
+execute if entity @s[tag=place.pitcher_vine] at @s run function adventure:interactables/pitcher_vine/place/create

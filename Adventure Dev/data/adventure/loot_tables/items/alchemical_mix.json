@@ -35,7 +35,7 @@
                 "function": "minecraft:set_components",
                 "components": 
                 {
-                    "minecraft:custom_model_data": 5100010,
+                    "minecraft:custom_model_data": 5100017,
                     "minecraft:rarity": "common"
                 }
               },

@@ -1,0 +1,1 @@
+execute if entity @s[tag=pitcher_vine.ready] at @s run function adventure:interactables/pitcher_vine/use/loop
