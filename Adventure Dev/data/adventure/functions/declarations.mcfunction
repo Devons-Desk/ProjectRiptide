@@ -21,6 +21,7 @@
 #declare objective coinflip
 
 #declare objective pitcher_vine.buildup
+#declare objective pitcher_vine.controller
 ##DECLARING TAGS
     #ENEMY
 #declare tag enemy.dodger

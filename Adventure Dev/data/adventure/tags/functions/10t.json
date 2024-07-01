@@ -6,7 +6,6 @@
         "adventure:stealth/particles/detection",
         "adventure:interactables/explosive_barrels/break_barrel/scoreboard",
         "adventure:enemy_ai/aggressive/detection",
-        "adventure:enemy_ai/patrolling/detection",
-        "adventure:interactables/pitcher_vine/use/poof/detection"
+        "adventure:enemy_ai/patrolling/detection"
     ]
 } 
