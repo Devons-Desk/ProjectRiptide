@@ -1,0 +1,2 @@
+execute as @e[tag=falling_tree.ready] at @s run function adventure:interactables/falling_trees/break/loop
+execute if score $falling_tree.controller falling_tree.controller matches 1 run schedule function adventure:interactables/falling_trees/break/tick 1t

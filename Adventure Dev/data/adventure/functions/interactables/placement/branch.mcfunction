@@ -1,0 +1,1 @@
+execute if entity @s[tag=place.falling_tree] run function adventure:interactables/falling_trees/create

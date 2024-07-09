@@ -1,0 +1,1 @@
+execute if entity @s[type=item_frame,tag=place.frame] at @s run function adventure:interactables/placement/branch

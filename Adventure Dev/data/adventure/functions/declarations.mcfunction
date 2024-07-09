@@ -20,6 +20,8 @@
 
 #declare objective coinflip
 
+#declare objective falling_tree.buildup
+#declare objective falling_tree.controller
 #declare objective pitcher_vine.buildup
 #declare objective pitcher_vine.controller
 ##DECLARING TAGS

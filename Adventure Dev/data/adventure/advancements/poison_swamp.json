@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:enter_block",
+        "conditions": {
+          "block": "minecraft:powder_snow"
+        }
+      }
+    },
+    "rewards": {
+      "function": "adventure:environment/poison_bog/detection"
+    }
+  }
+  

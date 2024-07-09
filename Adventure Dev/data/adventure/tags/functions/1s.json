@@ -13,6 +13,7 @@
         "adventure:dying/checkpoints/place/detection",
         "adventure:enemy_ai/attention/scoreboard",
         "adventure:dying/checkpoints/visibility",
-        "adventure:interactables/pitcher_vine/place/detection"
+        "adventure:interactables/pitcher_vine/place/detection",
+        "adventure:interactables/placement/detection"
     ]
 } 
