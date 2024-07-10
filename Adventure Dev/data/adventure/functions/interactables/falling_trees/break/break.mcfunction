@@ -1,4 +1,4 @@
-say hit stump
+#say hit stump
 scoreboard players set $falling_tree.controller falling_tree.controller 1
 tag @s remove inter.falling_tree.hitbox
 data modify entity @s Invulnerable set value 1b

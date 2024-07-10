@@ -1,4 +1,4 @@
-say fall
+#say fall
 data merge entity @s[tag=falling_tree.piece.1] {start_interpolation:-1,transformation:{left_rotation:[0.0f,0.0f,0.70710677f,0.70710677f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1f,1f,1f],translation:[0.0f,-1.0f,0.0f]}}
 data merge entity @s[tag=falling_tree.piece.2] {start_interpolation:-1,transformation:{left_rotation:[0.0f,0.0f,0.70710677f,0.70710677f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1f,1f,1f],translation:[-1.0f,-1.0f,0.0f]}}
 data merge entity @s[tag=falling_tree.piece.3] {start_interpolation:-1,transformation:{left_rotation:[0.0f,0.0f,0.70710677f,0.70710677f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1f,1f,1f],translation:[-2.0f,-1.0f,0.0f]}}
