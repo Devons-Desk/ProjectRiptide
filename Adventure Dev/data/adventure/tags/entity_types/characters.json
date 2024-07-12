@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": 
+    [
+        "minecraft:vindicator",
+        "minecraft:player",
+        "minecraft:spider",
+        "minecraft:wolf",
+        "minecraft:villager",
+        "minecraft:pillager"
+    ]
+}
