@@ -1,0 +1,2 @@
+execute if entity @s[type=arrow,tag=!fix.marked] at @s as @e[type=shulker,distance=..1] run function adventure:interactables/arrow_fix/hit
+execute if entity @s[type=arrow,tag=!fix.marked] at @s if entity @e[type=shulker,distance=..1] run tag @s add fix.marked

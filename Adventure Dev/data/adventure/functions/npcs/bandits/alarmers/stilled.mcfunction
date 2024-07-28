@@ -1,0 +1,1 @@
+summon pillager ~ ~ ~ {Team:"stealth",PersistenceRequired:1b,Health:10f,Tags:["enemy.patrolling","npc.bandit","enemy","enemy.alarmer","enemy.alarmer.fresh","enemy.stilled"],HandItems:[{id:"minecraft:crossbow",count:1},{}],Attributes:[{Name:"minecraft:generic.follow_range",Base:8},{Name:"minecraft:generic.max_health",Base:10},{Name:"minecraft:generic.movement_speed",Base:0}]}
