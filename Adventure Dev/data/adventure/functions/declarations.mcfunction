@@ -10,6 +10,7 @@
 #declare objective enemy.dodging.motion_y2
 #declare objective enemy.dodging.motion_z1
 #declare objective enemy.dodging.motion_z2
+#declare objective death_realm.controller
 
 #declare objective weapon.right_click
 #declare objective flintlock.buildup
