@@ -13,5 +13,6 @@ tag @s add npc.found
 
 execute if entity @s[tag=npc.bartender1] run function adventure:dialogue/npcs/bartender1
 execute if entity @s[tag=npc.mana] run function adventure:dialogue/npcs/mana
+execute if entity @s[tag=npc.smitty] run function adventure:dialogue/npcs/smitty
 
 tag @s remove npc.found
