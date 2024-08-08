@@ -1,0 +1,8 @@
+advancement revoke @s only adventure:items/inspectables/to_smitty
+clear @s structure_block[custom_data~{furled_paper.to_smitty:1b}] 1
+
+#say inspected paper
+playsound minecraft:entity.villager.work_librarian master @s ~ ~ ~ 1 1.5
+function adventure:dialogue/trees/effects
+function adventure:dialogue/trees/spacer
+tellraw @s [{"text":"----","bold":true},{"text":"Furled Paper","color":"gold","bold":true},{"text":"----","bold":true},{"text":"\nA sheet of paper bound by a frayed string.","bold":false},{"text":"\nClick an option:","color":"gray","bold":false,"italic":true},{"text":"\n- "},{"text":"Inspect the paper.","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"[Click to select]","color":"gray","italic":true}]},"clickEvent":{"action":"run_command","value":"/function adventure:dialogue/inspectables/to_smitty/2"}},{"text":"\n- ","hoverEvent":{"action":"show_text","contents":[{"text":"","color":"gray","italic":true}]}},{"text":"Undo the string.","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"[Click to select]","color":"gray","italic":true}]},"clickEvent":{"action":"run_command","value":"/function adventure:dialogue/inspectables/to_smitty/3"}},{"text":"\n--------","hoverEvent":{"action":"show_text","contents":[{"text":"","color":"gray","italic":true}]}},{"text":"\n[EXIT]","hoverEvent":{"action":"show_text","contents":[{"text":"[Click to exit]","color":"gray","italic":true}]},"clickEvent":{"action":"run_command","value":"/function adventure:dialogue/inspectables/to_smitty/exit"}}]

@@ -1,0 +1,60 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_block",
+            "functions": [
+              {
+                "function": "set_name",
+                "target": "item_name",
+                "name": 
+                [
+                  {
+                    "translate": "test",
+                    "fallback": "Furled Paper"
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "mode": "replace_all",
+                "lore": 
+                [
+                  {
+                    "translate": "test",
+                    "fallback": "[Right-click to inspect.]",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": 
+                {
+                    "minecraft:custom_model_data": 5100018,
+                    "minecraft:rarity": "common",
+                    "max_stack_size": 1,
+                    "minecraft:food":
+                    {
+                        "nutrition": 0,
+                        "saturation": 0,
+                        "can_always_eat": true,
+                        "eat_seconds": 100000
+                    }
+                }
+              },
+              {
+                  "function": "set_custom_data",
+                  "tag": "{furled_paper.to_smitty:1b,furled_paper:1b,inspectable:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

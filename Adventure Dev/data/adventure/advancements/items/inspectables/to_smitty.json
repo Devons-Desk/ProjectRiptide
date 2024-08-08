@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:structure_block",
+            "predicates": {
+              "minecraft:custom_data": "{furled_paper.to_smitty:1b,inspectable:1b}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "adventure:dialogue/inspectables/to_smitty/1"
+    }
+  }
+  

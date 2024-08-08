@@ -1,0 +1,57 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:written_book",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "target": "item_name",
+                "name": [
+                  {
+                    "translate": "test",
+                    "fallback": "To Smitty:"
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "translate": "test",
+                    "fallback": "[Right-click to read.]",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": 5100019,
+                  "minecraft:rarity": "common",
+                  "hide_additional_tooltip": {},
+                  "minecraft:written_book_content": {
+                    "title": "To Smitty",
+                    "author": "...",
+                    "pages": [
+                        "{\"text\":\"Sorry.\nSpiders got me. Can't feel legs.\nThe watermill group chased me in. Didn't follow. Smarter than they look. \nLeast one of them is.\nName was Beryl? Meryl?\nThey're going deeper into the canyon.\nTell others for me. Thanks.\"}"
+                      ]
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{to_smitty:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
