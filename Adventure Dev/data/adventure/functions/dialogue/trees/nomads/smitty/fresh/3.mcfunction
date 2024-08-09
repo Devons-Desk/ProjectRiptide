@@ -1,3 +1,4 @@
 function adventure:dialogue/trees/spacer
 function adventure:dialogue/trees/effects
 
+tellraw @s [{"bold":true,"text":"----"},{"bold":true,"color":"gold","text":"???"},{"bold":true,"text":"----"},{"bold":false,"text":"\nAbout time! Guild needs to clean up their messes."},{"bold":false,"color":"gray","italic":true,"text":"\nClick an option:"},{"text":"\n- "},{"clickEvent":{"action":"run_command","value":"/function adventure:dialogue/trees/nomads/smitty/fresh/7"},"color":"aqua","hoverEvent":{"action":"show_text","value":[{"text":"[Click to select]","color":"gray","italic":true}]},"text":"Messes?"},{"hoverEvent":{"action":"show_text","value":[{"text":"","color":"gray","italic":true}]},"text":"\n--------"}]
