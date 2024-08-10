@@ -40,17 +40,17 @@ But oh! I can't stop running my mouth. Where were we? (6)
         -That's not too bad. Sure. (7)
         -I'd literally rather be dead. (8)
 
-(7) Wonderful! You're taking this all very well. I'll return you right away; consider it a freebie. Good luck @p! Don't die! (9)
+(7) Wonderful! You're taking this all very well. I'll return you right away; consider it a freebie. Good luck @p! Don't die! 
 [Click to exit.]
 
 (8) ...Are you certain?
     Answers:
-        -Yes. Leave me be. (10)
-        -Just kidding. Please save me. Please. Please. Please. Plea- (11)
-        -Can I have some time to think about it? (12)
+        -Yes. Leave me be. (9)
+        -Just kidding. Please save me. Please. Please. Please. Plea- (10)
+        -Can I have some time to think about it? (11)
 
-(10) *Sigh* Maybe next time. [Click to persist] ##Plays purgatory scene.
+(9) *Sigh* Maybe next time. [Click to persist] ##Plays purgatory scene.
 
-(11) Hahaha! Of course! Of course. I'll see you again soon, @p. [Click to persist] ##First revive
+(10) Hahaha! Of course! Of course. I'll see you again soon, @p. [Click to persist] ##First revive
 
-(12) Don't take too long. Sun's going down. [Click to exit] ##Tag to prep intro.return
+(11) Don't take too long. Sun's going down. [Click to exit] ##Tag to prep intro.return

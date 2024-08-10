@@ -1,0 +1,1 @@
+execute at @e[tag=npc.mana] run particle minecraft:squid_ink ~ ~ ~ 0.1 1.1 0.1 0.03 5 force
