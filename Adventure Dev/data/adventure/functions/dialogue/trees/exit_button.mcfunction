@@ -1,0 +1,1 @@
+tellraw @s {"clickEvent":{"action":"run_command","value":"/function adventure:dialogue/exit"},"hoverEvent":{"action":"show_text","value":[{"text":"[Click to exit]","color":"gray","italic":true}]},"text":"[EXIT]"}
