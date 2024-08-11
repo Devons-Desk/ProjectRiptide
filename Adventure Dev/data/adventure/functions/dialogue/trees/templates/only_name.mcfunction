@@ -1,0 +1,1 @@
+tellraw @s [{"bold":true,"text":"----"},{"bold":true,"color":"gold","text":"Name - Title"},{"bold":true,"text":"----"},{"bold":false,"color":"white","text":"\nNarration"},{"bold":false,"color":"gray","italic":true,"text":"\nClick an option:"}]

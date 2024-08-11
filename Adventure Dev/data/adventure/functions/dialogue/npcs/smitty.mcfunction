@@ -1,1 +1,2 @@
 execute if entity @s[tag=npc.smitty.fresh] at @s as @p[tag=dia.raycasting] at @s run function adventure:dialogue/trees/nomads/smitty/fresh/initiate
+execute if entity @s[tag=npc.smitty.mid_task_1] at @s as @p[tag=dia.raycasting] at @s run function adventure:dialogue/trees/nomads/smitty/mid_task_1/initiate

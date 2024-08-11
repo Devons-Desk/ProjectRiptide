@@ -1,0 +1,1 @@
+tellraw @s {"hoverEvent":{"action":"show_text","value":[{"text":"","color":"gray","italic":true}]},"text":"--------"}

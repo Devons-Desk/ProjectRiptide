@@ -1,0 +1,1 @@
+tellraw @s [{"text":"- "},{"clickEvent":{"action":"run_command","value":"/function adventure:dialogue/trees/x"},"color":"aqua","hoverEvent":{"action":"show_text","value":[{"text":"[Click to select]","color":"gray","italic":true}]},"text":"Option1"}]

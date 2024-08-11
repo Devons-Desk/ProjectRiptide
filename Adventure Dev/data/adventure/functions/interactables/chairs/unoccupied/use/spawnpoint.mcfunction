@@ -7,3 +7,4 @@ title @p title {"text": "You rest your legs..."}
 spawnpoint @p ~ ~ ~
 forceload add ~ ~
 tag @s add inter.chair.spawnpoint
+tag @e[tag=inter.chair.hitbox,distance=..14] add inter.chair.spawnpoint
