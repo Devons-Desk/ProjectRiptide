@@ -6,10 +6,10 @@ execute if entity @p[y_rotation=165..-165] run function adventure:interactables/
 execute if entity @p[y_rotation=-15..15] run function adventure:interactables/padlocks/fragile/place/summon/south
 
 #east
-execute if entity @p[y_rotation=-105..-75] run function adventure:interactables/padlocks/fragile/place/summon/east 
+execute if entity @p[y_rotation=-105..-75] run function adventure:interactables/padlocks/fragile/place/summon/east
 
 #west
-execute if entity @p[y_rotation=75..105] run function adventure:interactables/padlocks/fragile/place/summon/west 
+execute if entity @p[y_rotation=75..105] run function adventure:interactables/padlocks/fragile/place/summon/west
 
 
 

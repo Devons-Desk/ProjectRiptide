@@ -1,0 +1,64 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "set_name",
+                "target": "item_name",
+                "name": 
+                [
+                  {
+                    "translate": "test",
+                    "fallback": "Engraved Bronze Flintlock"
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "mode": "replace_all",
+                "lore": 
+                [
+                  {
+                    "translate": "test",
+                    "fallback": "A once intricate weapon.",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "translate": "test",
+                    "fallback": "Under the ragged metal is",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "translate": "test",
+                    "fallback": "a small, engraved 'S'.",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": 
+                {
+                    "minecraft:custom_model_data": 5100012,
+                    "minecraft:rarity": "common"
+                }
+              },
+              {
+                  "function": "set_custom_data",
+                  "tag": "{bronze_flintlock.smitty:1b,bronze_flintlock.broken:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
