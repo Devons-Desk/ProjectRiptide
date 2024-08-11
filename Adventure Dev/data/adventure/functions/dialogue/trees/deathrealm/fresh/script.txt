@@ -1,0 +1,56 @@
+name ideas=
+    mana/Manāt (maniya=fate) - arabic goddess of fate, fortune, time, and destiny. one of 3 pantheon. alongside allat, and al-uzza
+    prosper - derived from persephone, queen of underworld. but also connected to the earth.
+    tellus - derived from gaia/gaea. 
+
+Background:
+Mana, elden being, trapped by their elden siblings. Has been sending feelers from their prison dimension to try to hook souls to assist them. Has hooked player but is secretly speaking to other souls? A bit conniving, yearning for freedom more than anything.
+
+Personality:
+Bombastic and inventive. Clever. Sneaky. Outgoing. Loose-lipped. A bit fruity and pseudo-caring. Self-centered.
+
+Title text:
+Oh! Something curious has come my way...
+
+Dialogue:
+(1) Hello curious one. 
+[Click to continue.]
+It seems you've stumbled into my...? room. 
+    Answers:
+        -Who are you? (2)
+        -*Stay silent* (3)
+
+(2) Me? Just a wanderer. Though lately I've been stuck in here. Family am I right?
+[Click to continue.]
+But enough about me! YOU! You. You. You.(4)
+
+(3) Curious and cautious! I admire that. But you- you have bigger fish to fry. [Click to continue](4)
+
+(4) *The voice laughs* You died! Poor thing. Lucky for you, my line plucked you right out of the aether.
+    Answers:
+        -Your line? (5)
+        -What do you want from me? (6)
+
+(5) Oh just a party trick. I've been down here so long, I started casting feelers into the dark. My siblings are better at it, but I can catch a soul or two when I put my mind to it!
+[Click to continue]
+Oh! I can't stop running my mouth. Where were we? (6)
+
+(6) Let's make a deal! I help return you from death, and all YOU have to do is keep me company. Play a game when you stop by, chat a bit. Then you'll be on your way. How about it?
+    Answers:
+        -That's not too bad. Sure. (7)
+        -I'd literally rather be dead. (8)
+
+(7) Wonderful! You're taking this all very well. I'll return you right away; consider it a freebie. Good luck @p! Don't die! 
+[Click to exit.]
+
+(8) ...Are you certain?
+    Answers:
+        -Yes. Leave me be. (9)
+        -Just kidding. Please save me. Please. Please. Please. Plea- (10)
+        -Can I have some time to think about it? (11)
+
+(9) *Sigh* Maybe next time. [Click to persist] ##Plays purgatory scene.
+
+(10) Hahaha! Of course! Of course. I'll see you again soon, @p. [Click to persist] ##First revive
+
+(11) Don't take too long. Sun's going down. [Click to exit] ##Tag to prep intro.return

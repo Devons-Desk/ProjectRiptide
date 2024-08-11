@@ -1,0 +1,1 @@
+scoreboard players set $death_realm.controller death_realm.controller 0
