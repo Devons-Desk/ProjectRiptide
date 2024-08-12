@@ -1,0 +1,53 @@
+A 
+(1_root) Welcome back, @s! It's a happy day with you around.
+[Click to continue.]
+    ##select random riddle/conversation*
+
+(1b) I had a dream the other day. Week? About an impressive being! 
+[Click to continue]
+(1c) It had three arms, with the third protruding from it's forehead. But the eyes? It had three! One on each palm. What could I name something so magnificent? 
+    Answers:
+        - Barithian. (2)
+        - Jeff. (2)
+        - Armclops. (3)
+
+(2) Oh, how disappointing. Perhaps the next one...
+[fail]
+
+(3) Extraordinary! And thus it shall be named. I'll send you back now. Visit again soon!
+[success]
+
+B
+(1b) A charming fellow taught me this game. I believe it was called "Scissors, Paper, Rock". Let's give it a go!
+[Click to continue]
+(1c) Okay, I'm ready. What'd you pick.
+    Answers:
+        - Scissors (2)
+        - Paper (3)
+        - Rock (4)
+
+(2) I've bested you! And I was hoping for a challenge.
+[fail]
+
+(3) BRA-VO! You're quite capable aren't you? Well, I've had my fun. I'll send you back now.
+[success]
+
+(4) It seems we've tied. But we both know ties go to me. I had high hopes for you, you know.
+[fail]
+
+C
+(1b) How about a riddle?
+[Click to continue]
+(1c) I can be half or full. Young or old. Sometimes with an eye. Filled with fog, right to the brim, or clear as the sky.
+    Answers:
+        - The ocean (2)
+        - A mind (3)
+        - A person (2)
+
+(2) Oohh, not quite. How disappointing. Goodbye.
+[fail]
+
+(3) Magnificent! I should expect no less.
+[success]
+
+D
