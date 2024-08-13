@@ -10,6 +10,8 @@
         "minecraft:interaction",
         "minecraft:item_display",
         "minecraft:block_display",
-        "minecraft:marker"
+        "minecraft:marker",
+        "minecraft:bee",
+        "minecraft:snowball"
     ]
 }
