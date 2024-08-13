@@ -1,1 +1,0 @@
-execute as @s[type=item_frame,tag=place.pot.surprise] at @s rotated as @p run function adventure:interactables/pots/surprise/place_pot/create

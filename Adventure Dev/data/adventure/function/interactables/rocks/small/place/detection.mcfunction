@@ -1,1 +1,0 @@
-execute as @s[type=item_frame,tag=place.rock.small] at @s rotated as @p run function adventure:interactables/rocks/small/place/create

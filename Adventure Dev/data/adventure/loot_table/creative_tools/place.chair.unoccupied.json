@@ -19,9 +19,13 @@
               "components": {
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",
-                  "Tags": ["place.chair.unoccupied"]
+                  "Tags": ["place.chair.unoccupied","place.frame"]
                 }
               }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{place_frame:1b}"
             }
           ]
         }

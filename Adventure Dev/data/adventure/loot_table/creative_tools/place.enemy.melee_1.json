@@ -19,9 +19,13 @@
               "components": {
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",
-                  "Tags": ["place.enemy.melee_1"]
+                  "Tags": ["place.enemy.melee_1","place.frame"]
                 }
               }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{place_frame:1b}"
             }
           ]
         }

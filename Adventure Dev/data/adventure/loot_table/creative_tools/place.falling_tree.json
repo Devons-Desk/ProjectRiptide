@@ -22,6 +22,10 @@
                   "Tags": ["place.falling_tree","place.frame"]
                 }
               }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{place_frame:1b}"
             }
           ]
         }

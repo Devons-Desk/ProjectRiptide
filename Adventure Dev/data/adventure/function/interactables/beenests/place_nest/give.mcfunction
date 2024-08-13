@@ -1,1 +1,0 @@
-give @s item_frame[custom_name='{"italic":false,"text":"Place Nest"}',entity_data={id:"minecraft:item_frame",Tags:["place.nest"]}]

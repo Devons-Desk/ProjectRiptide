@@ -19,9 +19,13 @@
               "components": {
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",
-                  "Tags": ["place.pot.regular"]
+                  "Tags": ["place.pot.regular","place.frame"]
                 }
               }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{place_frame:1b}"
             }
           ]
         }
