@@ -1,2 +1,3 @@
-execute as @e run function #adventure:10t
-schedule function adventure:loops/10t 10t
+execute as @a run function adventure:loops/10t_as_player
+execute as @e[type=#adventure:target_entities] run function adventure:loops/10t_as_entity
+schedule function adventure:loops/10t 10t replace

@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": 
+    [
+        "minecraft:vindicator",
+        "minecraft:spider",
+        "minecraft:wolf",
+        "minecraft:villager",
+        "minecraft:pillager",
+        "minecraft:interaction",
+        "minecraft:item_display",
+        "minecraft:block_display",
+        "minecraft:marker"
+    ]
+}

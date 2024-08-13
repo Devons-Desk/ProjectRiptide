@@ -1,2 +1,2 @@
-execute as @e run function #adventure:30t
-schedule function adventure:loops/30t 30t
+execute as @e[type=#adventure:target_entities] run function adventure:loops/30t_as_entity
+schedule function adventure:loops/30t 30t replace

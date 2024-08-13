@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "adventure:interactables/rocks/small/throw/detection",
-        "adventure:enemy_ai/attention/interrupt",
-        "adventure:interactables/break/detection",
-        "adventure:interactables/beenests/break_nest/detection"
-    ]
-} 

@@ -1,1 +1,0 @@
-execute if entity @s[tag=checkpoint.marker] at @s if entity @p[gamemode=creative,distance=..15] run particle minecraft:electric_spark ~ ~ ~ 0.1 0.5 0.1 0.05 8

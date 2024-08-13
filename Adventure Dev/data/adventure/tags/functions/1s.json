@@ -1,8 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "adventure:enemy_ai/state_machine/detection",
-        "adventure:enemy_ai/attention/scoreboard",
-        "adventure:dying/checkpoints/visibility"
-    ]
-} 

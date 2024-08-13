@@ -1,7 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "adventure:items/detect_rc",
-        "adventure:dying/lives/loop"
-    ]
-}
