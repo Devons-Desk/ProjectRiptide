@@ -1,1 +1,0 @@
-give @s item_frame{display:{Name:'{"text":"Place Nest","italic":false}'},EntityTag:{Tags:["place.nest"]}} 1

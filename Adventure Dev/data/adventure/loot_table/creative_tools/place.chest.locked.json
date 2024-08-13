@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Place Locked Chest",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags": ["place.chest.locked"]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
