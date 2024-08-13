@@ -1,4 +1,4 @@
-say become patrolling
+#say become patrolling
 tag @s add enemy.patrolling
 tag @s remove enemy.aggressive
 tag @s remove enemy.distracted

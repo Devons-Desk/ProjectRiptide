@@ -1,5 +1,5 @@
 #advancement revoke @s only adventure:items/handgun/right_click
-say fire
+#say fire
 
 ###cleaning up buildup 
 effect clear @s slowness

@@ -1,4 +1,4 @@
-say bandit cave 1 discovered
+#say bandit cave 1 discovered
 function adventure:areas/triggered
 #bandits
 tp @e[tag=enemy.area.bandit_cave_1] ~ -600 ~

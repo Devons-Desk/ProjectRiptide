@@ -48,7 +48,8 @@
                 "components": 
                 {
                     "minecraft:custom_model_data": 5100012,
-                    "minecraft:rarity": "common"
+                    "minecraft:rarity": "common",
+                    "enchantment_glint_override": true
                 }
               },
               {

@@ -1,5 +1,6 @@
 function adventure:dialogue/trees/spacer
 clear @s
+effect give @s saturation infinite 0 true
 gamemode adventure @s
 scoreboard players set @s life_counter 3
 tellraw @s {"text": "Welcome to the alpha playtest demo!\nPlease read the signs and leave feedback when finished.\n\n(Make sure to use MC version 1.20.5/1.20.6)","underlined": true,"color": "aqua"}

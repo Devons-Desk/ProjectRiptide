@@ -1,4 +1,4 @@
-say become alerted
+#say become alerted
 tag @s add enemy.alerted
 tag @s remove enemy.aggressive
 tag @s remove enemy.distracted

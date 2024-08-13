@@ -1,4 +1,4 @@
-say become aggressive
+#say become aggressive
 #effect give @s glowing 3
 #data modify entity @s AngryAt set from entity @p UUID
 tag @s add enemy.aggressive

@@ -1,4 +1,4 @@
-say found grotto
+#say found grotto
 tag @s add hdoor.teleporting
 tp @s -253.7375 38.5 417.9375
 playsound minecraft:block.grindstone.use master @p ~ ~ ~ 1 0.2

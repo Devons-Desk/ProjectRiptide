@@ -2,5 +2,5 @@
 tag @e[tag=inter.pitcher_vine.display,limit=1,sort=nearest] add pitcher_vine.ready
 scoreboard players set $pitcher_vine.controller pitcher_vine.controller 1
 function adventure:interactables/pitcher_vine/use/tick
-say success
+#say success
 kill @s

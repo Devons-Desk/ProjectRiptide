@@ -1,4 +1,4 @@
-say upper canyon trail discovered
+#say upper canyon trail discovered
 function adventure:areas/triggered
 #bandits
 #section 1
