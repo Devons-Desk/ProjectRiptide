@@ -1,4 +1,4 @@
-#say branching
+say branching
 execute if entity @s[tag=inter.beenest.hitbox] run function adventure:interactables/beenests/break_nest/break
 
 execute if entity @s[tag=inter.pot.hitbox] run function adventure:interactables/pots/regular/break_pot/break

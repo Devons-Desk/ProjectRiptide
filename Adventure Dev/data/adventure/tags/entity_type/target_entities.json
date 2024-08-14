@@ -12,6 +12,7 @@
         "minecraft:block_display",
         "minecraft:marker",
         "minecraft:bee",
-        "minecraft:snowball"
+        "minecraft:snowball",
+        "minecraft:area_effect_cloud"
     ]
 }

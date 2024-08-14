@@ -36,12 +36,12 @@
               "components": 
               {
                   "minecraft:custom_model_data": 5100010,
-                  "minecraft:rarity": "common"
-              },
-              "minecraft:entity_data": {
+                  "minecraft:rarity": "common",
+                  "minecraft:entity_data": {
                     "id": "minecraft:snowball",
                     "Tags":["rock.small.projectile"]
                   }
+              }
             },
             {
                 "function": "set_custom_data",

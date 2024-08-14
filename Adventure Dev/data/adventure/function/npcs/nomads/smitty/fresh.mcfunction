@@ -1,1 +1,1 @@
-summon villager ~ ~ ~ {Invulnerable:1b,Tags:["npc.talkative","npc.smitty","npc.smitty.fresh","npc.nomad"],Attributes:[{Name:generic.movement_speed,Base:0}],VillagerData:{level:99,profession:"minecraft:fletcher",type:"minecraft:desert"}}
+summon villager ~ ~ ~ {Invulnerable:1b,Tags:["npc.talkative","npc.smitty","npc.smitty.fresh","npc.nomad"],attributes:[{id:"generic.movement_speed",Base:0}],VillagerData:{level:99,profession:"minecraft:fletcher",type:"minecraft:desert"}}
