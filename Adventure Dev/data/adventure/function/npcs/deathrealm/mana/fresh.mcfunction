@@ -1,2 +1,2 @@
-summon interaction ~ ~ ~ {Tags:["npc.talkative","npc.mana","npc.mana.fresh"],height:2,width:1}
+summon interaction ~ ~ ~ {Tags:["npc.talkative","npc.mana","npc.mana.fresh","loop.5t"],height:2,width:1}
 #summon villager ~ ~ ~ {Silent:1b,Invulnerable:1b,Tags:["npc.talkative","npc.mana","npc.mana.fresh","npc.nomad"],active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b}],Attributes:[{Name:generic.movement_speed,Base:0}],VillagerData:{level:99,profession:"minecraft:fletcher",type:"minecraft:desert"}}

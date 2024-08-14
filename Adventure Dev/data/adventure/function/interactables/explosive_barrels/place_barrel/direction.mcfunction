@@ -1,4 +1,4 @@
-summon shulker ~ ~ ~ {Silent:1b,DeathLootTable:"adventure:interactables/pots/pot",NoAI:1b,Health:1000f,AttachFace:0b,Tags:["inter.explbarrel.hitbox"],active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1,show_particles:0b}],Attributes:[{Name:generic.armor,Base:0}]}
+summon shulker ~ ~ ~ {Silent:1b,DeathLootTable:"adventure:interactables/pots/pot",NoAI:1b,Health:1000f,AttachFace:0b,Tags:["inter.explbarrel.hitbox","loop.tick"],active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1,show_particles:0b}],Attributes:[{Name:generic.armor,Base:0}]}
 summon item_display ~ ~0.47 ~ {Tags:["inter.explbarrel.skin"],item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":5100001}}}
 
 

@@ -1,4 +1,4 @@
-say impact
+#say impact
 #summon armor_stand
 
 

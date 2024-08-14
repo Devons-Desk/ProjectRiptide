@@ -13,6 +13,8 @@
         "minecraft:marker",
         "minecraft:bee",
         "minecraft:snowball",
-        "minecraft:area_effect_cloud"
+        "minecraft:area_effect_cloud",
+        "minecraft:shulker",
+        "minecraft:armor_stand"
     ]
 }
