@@ -5,7 +5,6 @@ tp @e[tag=enemy.area.hidden_grotto] ~ -600 ~
 execute positioned -233.00 38.51 410.44 summon vindicator run function adventure:areas/hidden_grotto/tag/melee_dodger.zoned
 execute positioned -258.18 40.90 407.00 summon vindicator run function adventure:areas/hidden_grotto/tag/melee_dodger.freed
 execute positioned -250.00 38.56 425.55 summon vindicator run function adventure:areas/hidden_grotto/tag/melee_dodger.zoned
-execute positioned -268.00 38.48 408.51 summon vindicator run function adventure:areas/hidden_grotto/tag/melee_dodger.zoned
 execute positioned -265.00 46.75 412.44 summon vindicator run function adventure:areas/hidden_grotto/tag/melee_dodger.stilled
 
 execute positioned -310.00 47.76 424.57 summon spider run function adventure:areas/hidden_grotto/tag/den_spider.stilled

@@ -1,1 +1,1 @@
-summon stray ~ ~ ~ {Tags:["enemy","enemy.dodger","npc.duelist"],Attributes:[{Name:generic.movement_speed,Base:0.37}]}
+summon stray ~ ~ ~ {Tags:["enemy","enemy.dodger","npc.duelist","loop.1s","loop.10t"],Attributes:[{Name:generic.movement_speed,Base:0.37}]}

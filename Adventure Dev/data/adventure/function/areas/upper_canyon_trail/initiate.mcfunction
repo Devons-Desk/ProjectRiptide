@@ -12,7 +12,6 @@ execute positioned -195.5 56 425.5 summon vindicator run function adventure:area
 
 #section 2
 execute positioned -160.5 69 428.5 summon pillager run function adventure:areas/upper_canyon_trail/tag/alarmer.stilled
-execute positioned -177.5 56 432.5 summon vindicator run function adventure:areas/upper_canyon_trail/tag/melee_dodger.stilled
 execute positioned -163.5 57 424.5 summon vindicator run function adventure:areas/upper_canyon_trail/tag/melee_dodger.freed
 execute positioned -173.5 70 421.5 summon vindicator run function adventure:areas/upper_canyon_trail/tag/melee_dodger.stilled
 execute positioned -170.5 68 421.5 summon vindicator run function adventure:areas/upper_canyon_trail/tag/melee_dodger.stilled

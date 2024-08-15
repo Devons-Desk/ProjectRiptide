@@ -1,1 +1,2 @@
-data merge entity @s {Team:"stealth",PersistenceRequired:1b,Tags:["npc.bandit.melee_1","enemy.patrolling","npc.bandit","enemy","enemy.dodger","enemy.zoned"],attributes:[{id:generic.follow_range,Base:8},{id:generic.jump_strength,Base:0}]}
+data merge entity @s {Team:"stealth",PersistenceRequired:1b,Health:15f,Tags:["npc.bandit.melee_1","enemy.patrolling","npc.bandit","enemy","enemy.dodger","enemy.zoned","loop.1s","loop.10t"],HandItems:[{id:"minecraft:wooden_sword",count:1},{}],HandDropChances:[0.000F,0.085F],ArmorItems:[{},{},{},{id:"minecraft:stone_button",count:1}],attributes:[{id:"generic.follow_range",base:8},{id:"generic.jump_strength",base:0}]}
+#say attempt melee zoned
