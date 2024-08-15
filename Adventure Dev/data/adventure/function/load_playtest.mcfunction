@@ -8,3 +8,5 @@ tellraw @s {"text": "Welcome to the alpha playtest demo!\nPlease read the signs 
 tp @s -190 54 296 facing -189.5 54 305.5
 spawnpoint @s -190 54 296
 give @s minecraft:stone_sword[minecraft:unbreakable={true:1b}]
+experience set @s 0 levels
+experience set @s 0 points
