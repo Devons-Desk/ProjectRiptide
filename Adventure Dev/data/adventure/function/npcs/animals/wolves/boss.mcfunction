@@ -1,2 +1,2 @@
 #temp
-summon wolf ~ ~ ~ {variant:"ashen",Attributes:[{Name:generic.scale,Base:3}]}
+summon wolf ~ ~ ~ {variant:"ashen",attributes:[{id:generic.scale,base:3}]}

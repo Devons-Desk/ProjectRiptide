@@ -10,3 +10,4 @@ spawnpoint @s -190 54 296
 give @s minecraft:stone_sword[minecraft:unbreakable={true:1b}]
 experience set @s 0 levels
 experience set @s 0 points
+team join stealth @s

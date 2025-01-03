@@ -7,4 +7,4 @@ execute if score @s falling_tree.buildup matches 6 as @e[tag=falling_tree.displa
 execute if score @s falling_tree.buildup matches 6 as @e[tag=falling_tree.display,tag=falling_tree.sb] at @s run function adventure:interactables/falling_trees/spider_bay/fall
 
 
-execute if score @s falling_tree.buildup matches 94.. run function adventure:interactables/falling_trees/break/end
+execute if score @s falling_tree.buildup matches 80.. run function adventure:interactables/falling_trees/break/end
