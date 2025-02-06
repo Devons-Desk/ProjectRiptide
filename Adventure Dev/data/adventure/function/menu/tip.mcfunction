@@ -1,0 +1,1 @@
+execute if entity @s[tag=state.menu] run title @s actionbar {"text": "Use 'Settings' button before starting."}

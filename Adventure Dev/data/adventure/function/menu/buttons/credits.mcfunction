@@ -1,0 +1,2 @@
+function fishboss:dialogue/spacer
+tellraw @p [{"text":"----","bold":true},{"text":"CREDITS","color":"dark_green"},{"text":"----","bold":true},{"text":"\nMe, lol","bold":false},{"text":" [Link]","color":"gold","bold":true,"hoverEvent":{"action":"show_text","value":[{"text":"[Open YouTube]","color":"gray","italic":true}]},"clickEvent":{"action":"open_url","value":"https://www.youtube.com/devonsdesk"}},{"text":"\n--------","hoverEvent":{"action":"show_text","value":[{"text":"","color":"gray","italic":true}]}}]

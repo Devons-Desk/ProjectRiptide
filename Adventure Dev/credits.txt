@@ -1,0 +1,2 @@
+Extra Resources Used:
+PuckiSilver's NoShadow text shader

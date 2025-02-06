@@ -9,4 +9,4 @@ execute if entity @s[tag=enemy.distracted] at @s run particle minecraft:angry_vi
 execute if entity @s[scores={attention.duration=5..}] at @s run function adventure:enemy_ai/attention/end
 
 # Checkpoint visibility
-execute if entity @s[tag=checkpoint.marker] at @s if entity @p[gamemode=creative,distance=..15] run particle minecraft:electric_spark ~ ~ ~ 0.1 0.5 0.1 0.05 8
+execute if entity @s[tag=marker.indicator] at @s if entity @p[gamemode=creative,distance=..15] run particle minecraft:electric_spark ~ ~ ~ 0.1 0.5 0.1 0.05 8
