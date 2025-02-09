@@ -1,0 +1,16 @@
+Grubble is born (player POV)
+Grubble searches for stimuli. Is impressionable/malleable to what it finds
+Introduce dialogue mechanics for first time.
+Interact with environmental dialogue prompts. (Give text tips on how to use dialogue)
+Find animal tracks, DIALOGUE clue to hint where it went.
+First, find a weapon of sorts.
+Then find, not an animal, but a hunter.
+Hunter is harvesting animal.
+Introduce sneak mechanics. 
+Sneak up on the hunter.
+Player has weapon, but hunter also has dialogue prompt.
+Dramatic text popup talking about decision making.
+Interacting with the hunter's dialogue makes Grubbles peaceful in the story.
+Killing the hunter makes them violent in the story.
+Peaceful scene ends with Hunter getting scared and running away. Grubble eats food hunter leaves behind and throws up bog goop.
+Violent scene ends with Grubble- eating hunter? Grubble eats hunter and throws up bog goop.
