@@ -1,0 +1,17 @@
+(1) A small, tough object sits in your grasp.
+    Answers:
+        -Eat it. This is definitely food. (2)
+        -Examine it further.(3)
+
+(3) The object is cold and rough. It has cracks with no discernible pattern. This is food. What else could it be? This is food and has always been food.
+    Answers:
+        -EAT IT. (4)
+        -Wait, what's food? (5)
+
+(4) Unhinging creaking jaws, you stuff the chalky object down your throat. The rougness is somehow- pleasant.
+[Exit]
+
+(5) It feels like maintenance of some kind, or a habit. Something you do every day. Food. This is definitely food.
+    Answers:  
+        -EAT IT NOW. (4)
+

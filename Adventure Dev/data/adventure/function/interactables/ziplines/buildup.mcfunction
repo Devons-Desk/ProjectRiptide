@@ -1,5 +1,6 @@
 #say buildup
 scoreboard players add @s zipline.buildup 1
+execute if score @s zipline.buildup matches 20 run playsound sfx:zipline.whir master @p ~ ~ ~ 1 1
 execute if score @s zipline.buildup matches 1..60 run tp @s ^ ^ ^0.05 facing entity @n[type=marker,tag=inter.zipline.target,tag=inter.zipline.active,limit=1]
 execute if score @s zipline.buildup matches 61..80 run tp @s ^ ^ ^0.1 facing entity @n[type=marker,tag=inter.zipline.target,tag=inter.zipline.active,limit=1]
 execute if score @s zipline.buildup matches 81..90 run tp @s ^ ^ ^0.25 facing entity @n[type=marker,tag=inter.zipline.target,tag=inter.zipline.active,limit=1]

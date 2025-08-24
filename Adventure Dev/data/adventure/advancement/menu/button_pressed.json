@@ -11,7 +11,7 @@
       }
     },
     "rewards": {
-      "function": "fishboss:menu/buttons/detection"
+      "function": "adventure:menu/buttons/detection"
     }
   }
   
