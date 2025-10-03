@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Place Brazier",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags": ["place.brazier","place.frame"]
+                }
+              }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{place_frame:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
