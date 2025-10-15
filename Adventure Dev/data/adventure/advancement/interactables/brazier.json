@@ -11,7 +11,7 @@
       }
     },
     "rewards": {
-      "function": "adventure:interactables/padlocks/fragile/break/detection"
+      "function": "adventure:interactables/brazier/detection"
     }
   }
   

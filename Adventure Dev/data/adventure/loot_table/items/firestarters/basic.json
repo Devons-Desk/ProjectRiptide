@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "Firestarter"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "It can make a fire... Give it a minute.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": 
+              {
+                  "minecraft:rarity": "common",
+                  "minecraft:max_stack_size": 1,
+                  "minecraft:food": {
+                    "nutrition": 0,
+                    "saturation": 0,
+                    "eat_seconds": 100000000
+                  } 
+              }
+            },
+            {
+                "function": "set_custom_data",
+                "tag": "{firestarter.basic:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

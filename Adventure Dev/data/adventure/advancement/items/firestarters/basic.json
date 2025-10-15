@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:stick",
+          "predicates": {
+            "minecraft:custom_data": "{firestarter.basic:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "adventure:items/firestarter/detection"
+  }
+}
