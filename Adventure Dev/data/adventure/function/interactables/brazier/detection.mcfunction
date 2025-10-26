@@ -1,0 +1,2 @@
+advancement revoke @s only adventure:interactables/brazier
+execute as @n[type=interaction,distance=..7,tag=inter.brazier] if data entity @s interaction run function adventure:interactables/brazier/find_brazier

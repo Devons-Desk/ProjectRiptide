@@ -9,4 +9,5 @@ execute if entity @s[tag=place.pitcher_vine] run function adventure:interactable
 execute if entity @s[tag=place.pot.regular] run function adventure:interactables/pots/regular/place_pot/place
 execute if entity @s[tag=place.pot.surprise] run function adventure:interactables/pots/surprise/place_pot/place
 execute if entity @s[tag=place.rock.small] run function adventure:interactables/rocks/small/place/create
+execute if entity @s[tag=place.brazier] run function adventure:interactables/brazier/place
 kill @s[type=item_frame]
