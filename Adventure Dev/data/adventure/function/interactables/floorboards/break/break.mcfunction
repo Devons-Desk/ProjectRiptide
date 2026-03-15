@@ -1,0 +1,1 @@
+execute as @n[type=marker,tag=inter.floorboards.hitbox,distance=..2]
