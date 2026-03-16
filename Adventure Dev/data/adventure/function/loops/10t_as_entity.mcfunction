@@ -13,6 +13,5 @@ execute if entity @s[tag=enemy.aggressive,tag=enemy.alarmer,tag=enemy.alarmer.fr
 execute if entity @s[tag=enemy.patrolling] at @s if entity @p[distance=..8,tag=!stealth.full_hidden,gamemode=adventure] run function adventure:enemy_ai/patrolling/scoreboard
 
 # Floorboards detection
-### needs to execute from the marker/hitbox entity. rework
-execute if entity @s[type=#adventure:interactables/heavy] at @s if block ~ ~-1 ~ minecraft:petrified_oak_slab[type=top] run function adventure:interactables/floorboards/break/scoreboard
-execute if entity @s[type=#adventure:interactables/heavy] at @s if block ~ ~-0.5 ~ minecraft:petrified_oak_slab[type=bottom] run function adventure:interactables/floorboards/break/scoreboard
+execute if entity @s[type=#adventure:interactables/heavy] at @s if block ~ ~-1 ~ minecraft:petrified_oak_slab[type=top] as @n[type=marker,distance=..2,tag=inter.floorboards.marker] at @s run function adventure:interactables/floorboards/break/scoreboard
+execute if entity @s[type=#adventure:interactables/heavy] at @s if block ~ ~-0.5 ~ minecraft:petrified_oak_slab[type=bottom] as @n[type=marker,distance=..2,tag=inter.floorboards.marker] at @s run function adventure:interactables/floorboards/break/scoreboard

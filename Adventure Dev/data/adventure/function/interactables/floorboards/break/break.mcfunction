@@ -1,1 +1,3 @@
-execute as @n[type=marker,tag=inter.floorboards.hitbox,distance=..2]
+setblock ~ ~ ~ minecraft:air
+#create broken model
+kill @s

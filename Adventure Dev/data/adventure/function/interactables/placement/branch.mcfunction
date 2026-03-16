@@ -10,4 +10,6 @@ execute if entity @s[tag=place.pot.regular] run function adventure:interactables
 execute if entity @s[tag=place.pot.surprise] run function adventure:interactables/pots/surprise/place_pot/place
 execute if entity @s[tag=place.rock.small] run function adventure:interactables/rocks/small/place/create
 execute if entity @s[tag=place.brazier] run function adventure:interactables/brazier/place
+execute if entity @s[tag=place.floorboard.top] run function adventure:interactables/floorboards/place/create_top
+execute if entity @s[tag=place.floorboard.bottom] run function adventure:interactables/floorboards/place/create_bottom
 kill @s[type=item_frame]
