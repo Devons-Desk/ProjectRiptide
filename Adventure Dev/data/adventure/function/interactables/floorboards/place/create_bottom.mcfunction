@@ -1,2 +1,2 @@
-setblock ~ ~ ~ minecraft:petrified_oak_slab[type=bottom]
-summon marker ~ ~ ~ {Tags:["inter.floorboards.marker","inter.floorboards.bottom"]}
+setblock ~ ~ ~ minecraft:iron_trapdoor[half=bottom]
+summon marker ~ ~ ~ {Tags:["inter.floorboards.marker","inter.floorboards.bottom","inter.floorboards.unbroken"]}

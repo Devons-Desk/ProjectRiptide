@@ -1,0 +1,2 @@
+tellraw @s {"text":"Reset all broken floorboards within 25 blocks","color":"gold"}
+execute as @e[type=minecraft:marker,distance=..25,tag=inter.floorboards.broken] at @s run function adventure:interactables/floorboards/reset/finish
