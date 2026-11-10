@@ -2,6 +2,7 @@
 
 #sschedule function fishboss:menu/3sdelay 3s
 #summon interaction ~ ~ ~ {width:2.5f,height:3f,Tags:["menu.obstructor"]}
+kill @e[type=interaction,tag=menu.button,distance=..12]
 execute store result score @s menu_randomizer run random value 1..2
 execute if score @s menu_randomizer matches 1 run function adventure:menu/locations/sunrise_canyon
 execute if score @s menu_randomizer matches 2 run function adventure:menu/locations/wolf_plains

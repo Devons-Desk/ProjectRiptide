@@ -7,7 +7,7 @@ scoreboard players set @s talking 1
 
 #effect give @s blindness 999999 0 true
 
-
+###npc must have npc.x.fresh tag to start dialogue. add this tag to npc's with exhausted dialogue to reset them
 tag @s add dia.raycasting
 execute if entity @s anchored eyes positioned ^ ^ ^ run function adventure:dialogue/raycast/loop
 #tag @s add talking

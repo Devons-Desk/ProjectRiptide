@@ -1,0 +1,1 @@
+execute as @n[type=minecraft:villager,distance=..3,tag=!npc.fresh,tag=npc.talkative]

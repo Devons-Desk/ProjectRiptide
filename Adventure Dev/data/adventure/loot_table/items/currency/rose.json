@@ -1,0 +1,66 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stick",
+            "functions": [
+              {
+                "function": "set_name",
+                "target": "item_name",
+                "name": 
+                [
+                  {
+                    "translate": "test",
+                    "fallback": "Rose",
+                    "color": "gold"
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "mode": "replace_all",
+                "lore": 
+                [
+                  {
+                    "translate": "test",
+                    "fallback": "The proposed national currency",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "translate": "test",
+                    "fallback": "by the Pick Fortune guild,",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "translate": "test",
+                    "fallback": "composed of a rose-gold alloy.",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": 
+                {
+                    "minecraft:custom_model_data": 5100024,
+                    "minecraft:rarity": "common",
+                    "minecraft:max_stack_size": 99
+                }
+              },
+              {
+                  "function": "set_custom_data",
+                  "tag": "{coin.rose:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
